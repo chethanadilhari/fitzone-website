@@ -3,6 +3,8 @@ import HeroSection from './HeroSection'
 import WhyChooseUs from './WhyChooseUs'
 import './home.css'
 import CountSection from './CountSection'
+import OurServices from './OurServices'
+import Mission from './Mission'
 
 function Home() {
   return (
@@ -11,6 +13,8 @@ function Home() {
         <HeroSection/>
         <WhyChooseUs/>
         <CountSection/>
+        <OurServices/>
+        <Mission/>
       </div>
         <div>Home</div>
     </>

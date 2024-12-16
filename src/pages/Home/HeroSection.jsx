@@ -1,5 +1,5 @@
 import React from 'react';
-import './HeroSection.css';
+import './Home.css';
 import BronzeBtn from '../../components/common/BronzeBtn'
 import SocialMediaLinks from '../../components/common/SocialMediaLinks';
 

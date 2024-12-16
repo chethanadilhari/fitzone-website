@@ -28,7 +28,7 @@ const Header = () => {
       isScrolled ? 'bg-black text-white' : 'bg-transparent text-white'
     }`}
   >
-      <div className="max-w-screen-xl mx-auto flex justify-between items-center px-20 py-4">
+      <div className="max-w-screen-xl mx-auto flex justify-between items-center px-20 py-1">
         {/* Logo section */}
         <div className="flex space-x-2 items-center">
           <a href="/">
