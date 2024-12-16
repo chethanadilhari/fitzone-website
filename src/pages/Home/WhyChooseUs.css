@@ -1,0 +1,16 @@
+.custome-outline {
+    color: black;
+    color: transparent !important;
+    -webkit-text-stroke: 1px #b08d57 !important;
+    text-stroke: 1px #b08d57 !important;
+}
+
+
+.vertical-text {
+    writing-mode: vertical-rl; /* Rotates text to vertical */
+    transform: rotate(180deg); 
+}
+
+.custom-gradient {
+    background: linear-gradient(to top, black 60%,rgb(0 0 0 / 0.2) 100%);
+}

@@ -15,7 +15,7 @@ export default {
       fontFamily: {
         sairaCondensed: ['Saira Condensed', 'sans-serif'],  //custom font 1
         koulen: ['Koulen', 'serif'],  //custom font 2,
-        krub:['Krub', 'sans-serif']
+        krub:['Krub', 'sans-serif']  
     },
   },
 
