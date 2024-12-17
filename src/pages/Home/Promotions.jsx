@@ -22,8 +22,8 @@ const Promotions = () => {
                     </div>
                     <h2 className="text-8xl font-bold tracking-tight text-bronze uppercase">30% off</h2>
                     <h3 className="text-2xl font-bold tracking-wider">With Annual Packages</h3>
-                    <p className="text-base tracking-wider">Join now and get 30% off your first month! Upgrade to an Annual Plan and enjoy 2 months free. <br/> Don’t miss out — start your fitness journey today!</p>
-                    <BronzeBtn to="#aboutUs" text="Become a member" className="mt-5" />
+                    <p className="text-base tracking-wider py-5 ">Join now and get 30% off your first month! Upgrade to an Annual Plan and enjoy 2 months free. <br/> Don’t miss out — start your fitness journey today!</p>
+                    <BronzeBtn to="#aboutUs" text="Become a member" className="mt-2" />
                 </div>
             </div>
         </section>
