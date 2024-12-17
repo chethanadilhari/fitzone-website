@@ -6,6 +6,7 @@ import CountSection from './CountSection'
 import OurServices from './OurServices'
 import Mission from './Mission'
 import Pricing from './Pricing'
+import Promotions from './Promotions'
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
         <OurServices/>
         <Mission/>
         <Pricing/>
+        <Promotions/>
       </div>
         <div>Home</div>
     </>
