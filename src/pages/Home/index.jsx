@@ -15,12 +15,11 @@ function Home() {
         <HeroSection/>
         <WhyChooseUs/>
         <CountSection/>
+      </div>
         <OurServices/>
         <Mission/>
         <Pricing/>
         <Promotions/>
-      </div>
-        <div>Home</div>
     </>
   )
 }

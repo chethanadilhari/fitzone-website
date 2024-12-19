@@ -50,8 +50,8 @@ const Pricing = () => {
 
     return (
 
-        <section className=" h-screen bg-black">
-
+        <section className=" bg-black">
+<div className="w-full max-w-screen-xl mx-auto px-20 py-10">
             <div className="uppercase text-bronze font-bold flex-col py-30 px-20">
                 <div className="flex gap-4">
                 <div
@@ -75,6 +75,7 @@ const Pricing = () => {
                 <PackageDetails data = {PricingDetails[2]} />
             </div>
 
+            </div>
             </div>
         </section>
     )

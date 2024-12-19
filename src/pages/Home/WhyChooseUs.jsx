@@ -6,8 +6,8 @@ import BronzeBtn from '../../components/common/BronzeBtn'
 function WhyChooseUs() {
     return (
         <Element name="whyChooseUs">
-        <section className="custom-gradient max-w-screen-xl  h-auto px-20 py-10 flex flex-col justify-end">
-            <div className='grid grid-cols-3'>
+        <section className="custom-gradient">
+            <div className='grid grid-cols-3 w-full max-w-screen-xl h-auto px-20 py-10 mx-auto'>
                 <div className="mx-auto font-sairaCondensed uppercase font-bold vertical-text" >
                     <h2><span className="text-6xl text-right float-end custome-outline">Why</span> <br />
                         <span className="text-8xl text-white">Choose</span> <br />

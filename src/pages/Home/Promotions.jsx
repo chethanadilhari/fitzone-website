@@ -3,10 +3,11 @@ import BronzeBtn from '../../components/common/BronzeBtn';
 
 const Promotions = () => {
     return (
-        <section className="h-screen bg-cover bg-center bg-no-repeat"
+        <section className=" bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: "url('/images/promotions-bg.jpg')" }}
         >
-            <div className="flex justify-end font-sairaCondensed text-white py-20 px-20">
+            <div className="w-full max-w-screen-xl h-auto px-20 ">
+            <div className="flex justify-end font-sairaCondensed text-white py-20">
                 <div className="text-left">
                     <div className="flex gap-4">
                         <div
@@ -25,6 +26,7 @@ const Promotions = () => {
                     <p className="text-base tracking-wider py-5 ">Join now and get 30% off your first month! Upgrade to an Annual Plan and enjoy 2 months free. <br/> Don’t miss out — start your fitness journey today!</p>
                     <BronzeBtn to="#aboutUs" text="Become a member" className="mt-2" />
                 </div>
+            </div>
             </div>
         </section>
     );

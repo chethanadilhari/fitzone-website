@@ -32,8 +32,9 @@ const OurServices = () => {
 
     return (
 
-        <section className="bg-black  max-w-screen-xl h-auto px-20 ">
-            <div className="text-white font-bold font-sairaCondensed text-4xl uppercase text-center pt-10 pb-3">
+        <section className="bg-black">
+            <div className="w-full max-w-screen-xl mx-auto px-20 py-10">
+            <div className="text-white font-bold font-sairaCondensed text-4xl uppercase text-center">
                 <h2> <span className="text-bronze text-3xl">Our </span>Services</h2>
             </div>
             <div className=" grid grid-cols-2 pt-5 pb-10 ">
@@ -46,9 +47,9 @@ const OurServices = () => {
                 <div>
                     <div className="items-center pl-8  w-auto">
                         <div className=" grid border broder-2 border-bronze">
-                            <img src={selectedService.image} alt="Image description" className="max-w h-auto object-cover mb-4" />
+                            <img src={selectedService.image} alt="Image description" className="max-w h-auto object-cover" />
 
-                            <div className="px-5">
+                            <div className="p-5">
                                 <a className="font-sairaCondensed text-2xl font-bold tracking-[0.3em]  text-white" >
 
                                     {selectedService.name}
@@ -67,6 +68,7 @@ const OurServices = () => {
                 </div>
 
             </div>
+        </div>
         </section>
 
     )
