@@ -14,7 +14,7 @@ const PackageContainer = ({ data, icon, className = "" }) => {
                     {data.name}
                 </div>
 
-                {/* Plan Description */}
+                {/* Plan Description */} 
                 <div className="text-sm text-center h-5 font-medium">{data.description}</div>
 
                 {/* Plan Price */}

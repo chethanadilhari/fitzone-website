@@ -27,6 +27,7 @@ const OurServices = () => {
             description: "Push your limits with high-intensity functional training for full-body fitness and endurance.",
             link: "/crossfit"
         }
+        
     ]
     const [selectedService, setSelectedService] = useState(services[0]);
 

@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Packages from './pages/Packages';
 import PrivacyPolicy from './pages/Privacy Policy';
+import Classes from './pages/Classes';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/about" element={<About/>} />
           <Route path="/packages" element={<Packages/>} />
           <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
+          <Route path="/classes" element={<Classes/>} />
         </Routes>
       </Layout>
     </Router>

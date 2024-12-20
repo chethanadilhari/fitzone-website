@@ -51,7 +51,7 @@ const Pricing = () => {
     return (
 
         <section className=" bg-black">
-<div className="w-full max-w-screen-xl mx-auto px-20 py-10">
+<div className="w-full max-w-screen-xl mx-auto h-auto px-20 py-10">
             <div className="uppercase text-bronze font-bold flex-col py-30 px-20">
                 <div className="flex gap-4">
                 <div
