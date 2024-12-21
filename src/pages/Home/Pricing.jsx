@@ -49,33 +49,33 @@ const Pricing = () => {
 
 
     return (
-
-        <section className=" bg-black">
-<div className="w-full max-w-screen-xl mx-auto h-auto px-20 py-10">
-            <div className="uppercase text-bronze font-bold flex-col py-30 px-20">
-                <div className="flex gap-4">
-                <div
-                    style={{
-                        borderTop: '5px solid #b08d57', // Change to borderTop for horizontal line
-                        width: '60px', // Adjust the width as needed
-                        margin: '8px 0', // Adjust margins if needed
-                        
-                    }}
-                ></div>
-                <div><p className="text-lg font-koulen tracking-[0.2em]  ">Our plans</p></div>
+        <section className="bg-black">
+            <div className="w-full max-w-screen-xl mx-auto h-auto px-5 md:px-20 py-7 md:py-10">
+                <div className="uppercase text-bronze font-bold flex-col py-30 px-5 md:px-20">
+                    <div className="flex gap-4">
+                        <div
+                            style={{
+                                borderTop: '5px solid #b08d57',
+                                width: '60px',
+                                margin: '8px 0',
+                            }}
+                        ></div>
+                        <div>
+                            <p className="text-sm md:text-lg font-koulen tracking-[0.2em]">Our plans</p>
+                        </div>
+                    </div>
+                    <h2 className="text-base md:text-2xl tracking-[0.05em] font-sairaCondensed">
+                        Effective <span className="text-xl md:text-4xl text-white">Membership Plans</span> for You
+                    </h2>
                 </div>
-                <h2 className="text-2xl tracking-[0.05em] font-sairaCondensed">Effective <span className="text-4xl text-white">Membership Plans</span> for You</h2>
-            </div>
 
-            <div>
-
-            <div className= "grid grid-cols-3 gap-12 px-20 py-5">
-                <PackageDetails data = {PricingDetails[0]} />
-                <PackageDetails data = {PricingDetails[1]} />
-                <PackageDetails data = {PricingDetails[2]} />
-            </div>
-
-            </div>
+                <div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-12 px-5 md:px-20 py-5">
+                        <PackageDetails data={PricingDetails[0]} />
+                        <PackageDetails data={PricingDetails[1]} />
+                        <PackageDetails data={PricingDetails[2]} />
+                    </div>
+                </div>
             </div>
         </section>
     )

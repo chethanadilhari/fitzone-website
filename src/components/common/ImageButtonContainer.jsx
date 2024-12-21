@@ -3,18 +3,18 @@ import React from 'react';
 function ImageButtonContainer({ data, handleClick }) {
   return (
     <div 
-      className="relative text-white p-2 font-bold overflow-hidden group" 
+      className="relative text-white font-bold overflow-hidden group group-hover:scale-105 border-2 hover:border-bronze  duration-500 border-white" 
       onClick={() => handleClick(data)}
     >
       {/* Image */}
       <img 
         src={data.image} 
         alt="Image description" 
-        className="max-w-80 h-56 object-cover group-hover:scale-105 border-4 group-hover:border-bronze  duration-200 border-white" 
+        className="w-full h-48 object-cover transition-transform duration-300 transform group-hover:scale-105" 
       />
       
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent  to-black opacity-30 group-hover:opacity-50 transition-opacity duration-300"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent  to-black opacity-30 group-hover:opacity-50 transition-opacity "></div>
 
       {/* Button Text */}
       <div className="absolute inset-0 flex items-end ">

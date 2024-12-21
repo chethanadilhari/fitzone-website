@@ -6,13 +6,21 @@
 }
 
 
-.vertical-text {
-    writing-mode: vertical-rl; /* Rotates text to vertical */
+/* .vertical-text {
+    writing-mode: vertical-rl;
     transform: rotate(180deg); 
-}
+} */
 
 .custom-gradient {
     top:-150px;
     padding-top: 150px;
     background: linear-gradient(to top,black 65%,rgb(0 0 0 / 0.2) 100%);
+}
+
+@media screen and (min-width: 768px) {
+    .vertical-text {
+        writing-mode: vertical-rl; /* Rotates text to vertical */
+        transform: rotate(180deg); 
+    }
+    
 }

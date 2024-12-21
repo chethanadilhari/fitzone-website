@@ -14,7 +14,7 @@ const NavLink = ({ to, text, className = "" }) => {
 const Navigation = () => {
   return (
     <nav >
-      <ul className="flex font-koulen uppercase space-x-7 font-thin items-center justify-center tracking-[0.3em] ">
+      <ul className=" flex font-koulen uppercase space-x-7 font-thin items-center justify-center tracking-[0.3em] ">
         <NavLink to="#home" text="Home" />
         <NavLink to="#classes" text="Classes" />
         <NavLink to="#packages" text="Packages" />
