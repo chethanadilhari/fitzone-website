@@ -7,10 +7,10 @@ const PackageContainer = ({ data, icon, className = "" }) => {
     return (
         <div className="flex justify-center text-center ">
             <div
-                className={`font-sairaCondensed border-2 group hover:border-bronze hover:shadow-[0_0_0_2px_#b08d57] items-center tracking-[0.1em] font-bold text-white  ${className}`}
+                className={`font-sairaCondensed border-2 group w-full h-auto hover:border-bronze hover:shadow-[0_0_0_2px_#b08d57] items-center tracking-[0.1em] font-bold text-white  ${className}`}
             >
                 {/* Plan Name */}
-                <div className="uppercase group-hover:text-bronze text-3xl font-bold py-3">
+                <div className="uppercase group-hover:text-bronze transition-500 text-3xl font-bold py-3">
                     {data.name}
                 </div>
 
@@ -18,7 +18,7 @@ const PackageContainer = ({ data, icon, className = "" }) => {
                 <div className="text-sm text-center h-5 font-medium">{data.description}</div>
 
                 {/* Plan Price */}
-                <div className="font-bold my-5 group-hover:bg-bronze py-2 bg-gray-600 text-3xl">
+                <div className="font-bold my-5 group-hover:bg-bronze transtition-500 py-2 bg-gray-600 text-3xl">
                     <span className="text-5xl">${data.price}</span> <span className="text-base ">/month</span>
                 </div>
 
