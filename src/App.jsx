@@ -7,6 +7,7 @@ import About from './pages/About';
 import Packages from './pages/Packages';
 import PrivacyPolicy from './pages/Privacy Policy';
 import Classes from './pages/Classes';
+import Contact from './pages/Contact';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/packages" element={<Packages/>} />
           <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
           <Route path="/classes" element={<Classes/>} />
+          <Route path="/contact" element={<Contact/>} />
         </Routes>
       </Layout>
     </Router>
