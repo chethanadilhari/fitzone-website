@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ImageButtonContainer({ data, handleClick }) {
+function ServiceContainer({ data, handleClick }) {
   return (
     <div 
       className="relative text-white font-bold overflow-hidden group group-hover:scale-105 border-2 hover:border-bronze  duration-500 border-white" 
@@ -28,4 +28,4 @@ function ImageButtonContainer({ data, handleClick }) {
   );
 }
 
-export default ImageButtonContainer;
+export default ServiceContainer;

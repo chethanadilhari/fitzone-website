@@ -7,6 +7,8 @@ import OurServices from './OurServices'
 import Mission from './Mission'
 import Pricing from './Pricing'
 import Promotions from './Promotions'
+import OurTeam from './OurTeam'
+
 
 function Home() {
   return (
@@ -20,6 +22,8 @@ function Home() {
         <Mission/>
         <Pricing/>
         <Promotions/>
+        <OurTeam/>
+  
     </>
   )
 }
