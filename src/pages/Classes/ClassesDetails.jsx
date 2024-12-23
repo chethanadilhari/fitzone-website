@@ -64,7 +64,7 @@ const ClassesDetails = () => {
     return (
         <section className="bg-black">
 
-            <div className="w-full text-white max-w-screen-xl py-10 h-auto mx-auto px-20">
+            <div className="w-full text-white max-w-screen-xl py-10 h-auto mx-auto px-5 lg:px-20">
                 
                 <ClassesContainer data={classes[0]} />
                 <ClassesContainer data={classes[1]} />

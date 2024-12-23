@@ -1,0 +1,22 @@
+/* Default styles for input boxes */
+.input-box {
+    width: 500px;
+    padding: 0.5rem;
+    background-color: black;
+    border-bottom: 2px solid #b08d57;
+    color: white;
+    outline: none;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .input-box {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .input-box {
+        width: 100%;
+    }
+}

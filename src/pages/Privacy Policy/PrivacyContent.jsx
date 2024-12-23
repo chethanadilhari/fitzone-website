@@ -3,7 +3,7 @@ import React from 'react'
 const PrivacyContent = () => {
 return (
     <section className="bg-customDarkGrey py-10">
-        <div className=" text-white px-6 md:px-20 mx-auto">
+        <div className=" text-white font-sairaCondensed px-5 md:px-20 mx-auto">
             <p className="mb-4 text-bronze font-bold">Effective Date: [20-12-2024]</p>
             <p className="mb-6">We value your privacy at FitZone Fitness Center. This policy explains how we collect, use, and protect your personal information.</p>
             <ol className="list-decimal list-inside space-y-6">

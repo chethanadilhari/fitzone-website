@@ -61,11 +61,11 @@ const Pricing = () => {
                             }}
                         ></div>
                         <div>
-                            <p className="text-sm md:text-lg font-koulen tracking-[0.2em]">Our plans</p>
+                            <p className="text-lg font-koulen tracking-[0.2em]">Our plans</p>
                         </div>
                     </div>
-                    <h2 className="text-base md:text-2xl tracking-[0.05em] font-sairaCondensed">
-                        Effective <span className="text-xl md:text-4xl text-white">Membership Plans</span> for You
+                    <h2 className="text-2xl tracking-[0.05em] font-sairaCondensed">
+                        Effective <span className="text-4xl text-white">Membership Plans</span> for You
                     </h2>
                 </div>
 

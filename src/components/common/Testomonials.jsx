@@ -9,7 +9,7 @@ const Testomonials = ({ item }) => {
                 "
             </div>
             <div>
-                <img src={item.image} alt="testomonial" className="w-36 rounded-3xl mx-auto" />
+                <img src={item.image} alt="testomonial" className="w-36  rounded-xl mx-auto" />
             </div>
             <div className="text-white text-2xl py-2">
                 {item.name}

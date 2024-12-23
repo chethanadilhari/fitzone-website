@@ -6,9 +6,9 @@ const Promotions = () => {
         <section className=" bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: "url('/images/promotions-bg.jpg')" }}
         >
-            <div className="w-full max-w-screen-xl h-auto mx-auto px-20 ">
+            <div className="w-full max-w-screen-xl h-auto mx-auto px-5 md:px-20 ">
             <div className="flex justify-end font-sairaCondensed text-white py-20">
-                <div className="text-left">
+                <div className="text-center md:text-left">
                     <div className="flex gap-4">
                         <div
                             style={{

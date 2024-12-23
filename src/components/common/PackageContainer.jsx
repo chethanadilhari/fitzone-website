@@ -24,7 +24,7 @@ const PackageContainer = ({ data, icon, className = "" }) => {
 
                 {/* Features List */}
                 <div>
-                    <ul className="font-light text-sm text-left h-30 list-disc pl-6">
+                    <ul className="font-light text-sm text-left h-56 list-disc pl-6">
                         {data.features.map((feature, i) => (
                             <li key={i} className="flex items-center my-2">
                                 <FontAwesomeIcon
@@ -40,7 +40,7 @@ const PackageContainer = ({ data, icon, className = "" }) => {
                 {/* Action Button */}
                 <div  className="">
                     <button
-                        className="group-hover:border-bronze my-3 group-hover:bg-bronze shadow-none hover:shadow-[0_0_0_1px_white] transition-shadow font-koulen text-lg tracking-[0.2em] uppercase border-2 border-customGrey bg-transparent text-white px-5 py-2  "
+                        className="group-hover:border-bronze mb-5 group-hover:bg-bronze shadow-none hover:shadow-[0_0_0_2px_white] transition-shadow font-koulen text-lg tracking-[0.2em] uppercase border-2 border-customGrey bg-transparent text-white px-5 py-2  "
                     >
                         Join Now
                     </button>
