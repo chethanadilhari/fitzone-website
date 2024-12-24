@@ -1,29 +1,34 @@
 import React, { useState } from "react";
 import TeamContainer from '../../components/common/TeamContainer'
+import SocialMediaLinks from "../../components/common/SocialMediaLinks";
 
 const OurTeam = () => {
     const trainers = [
         {
             image: "/images/trainer-1.jpg",
-            name: "Cardio Training",
+            name: "Mark Bennett",
+            service: "Cardio Training",
             description: "Boost endurance and burn calories with high-energy cardio workouts.",
             link: "/cardio"
         },
         {
             image: "/images/trainer-2.jpg",
-            name: "Body Building",
+            name: "Jason Wright",
+            service: "Body Building",
             description: "Build serious muscle mass and sculpt your physique with expert-guided strength programs.",
             link: "/body-building"
         },
         {
             image: "/images/trainer-3.jpg",
-            name: "Fat Burning",
+            name: "Ryon Carter",
+            service: "Fat Burning",
             description: "Shed excess fat and tone your body through targeted fat-burning routines.",
             link: "/fat-burning"
         },
         {
             image: "/images/trainer-4.jpg",
-            name: "Crossfit",
+            name: "Emily Turner",
+            service: "Crossfit",
             description: "Push your limits with high-intensity functional training for full-body fitness and endurance.",
             link: "/crossfit"
         },
@@ -45,19 +50,23 @@ const OurTeam = () => {
                         ))}
                     </div>
                     <div>
-                        <div className="items-center pl-0 lg:pl-8 w-auto ">
-                            <div className="grid border-2 border-bronze">
-                                <img src={selectedTrainer.image} alt="Image description" className="max-w-full object-cover h-84" />
+                        <div className="items-center pl-0 lg:pl-8  ">
+                            <div className="grid border-2  border-neutral-500">
+                                <img src={selectedTrainer.image} alt="Image description" className="max-w-full w-auto object-cover h-84 " />
                                 <div className="p-5">
                                     <a className="font-sairaCondensed text-2xl font-bold tracking-[0.3em] text-white">
                                         {selectedTrainer.name}
-                                        <div className="font-krub text-xs py-2 font-light tracking-[0.2em]">
+                                        <div className="text-lg font-bold tracking-[0.2em] text-bronze"> 
+                                        {selectedTrainer.service}
+                                        </div>
+                                        <div
+                                         className="font-krub text-xs py-2 font-light tracking-[0.2em]">
                                             {selectedTrainer.description}
                                         </div>
                                     </a>
-                                    <button className="text-bronze font-koulen text-sm px-5 py-1 border-2 mt-2 mb-3 tracking-[0.3em] hover:text-white hover:bg-bronze border-bronze bg-transparent">
-                                        Read More
-                                    </button>
+                                   <div className="place-items-end">
+                                   <SocialMediaLinks/>
+                                   </div>
                                 </div>
                             </div>
                         </div>
