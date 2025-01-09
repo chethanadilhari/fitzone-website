@@ -32,9 +32,9 @@ const Header = () => {
         {/* Logo section */}
         <div className="flex space-x-2 items-center">
           <a href="/">
-            <img src="src/assets/images/header/logo.png" alt="FitZone Logo" className="h-8" />
+            <img src="/images/header/logo.png" alt="FitZone Logo" className="h-8" />
           </a>
-          <img src="src/assets/images/header/logo-text.png" alt="FitZone Logo Text" className="h-5" />
+          <img src="/images/header/logo-text.png" alt="FitZone Logo Text" className="h-5" />
         </div>
 
         {/* Navigation Links */}

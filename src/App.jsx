@@ -9,6 +9,7 @@ import PrivacyPolicy from './pages/Privacy Policy';
 import Classes from './pages/Classes';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
+import SinglePost from './pages/Blog/SinglePost';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="/classes" element={<Classes/>} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="/blog" element={<Blog/>} />
+          <Route path="/blog/:id" element={<SinglePost/>} />
         </Routes>
       </Layout>
     </Router>

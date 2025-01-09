@@ -14,9 +14,9 @@ const Footer = () => {
           <div>
             <div className="grid gap-4 mx-auto justify-center">
               <a href="/">
-                <img src="src/assets/images/header/logo.png" alt="FitZone Logo" className="h-14 mx-auto" />
+                <img src="/images/header/logo.png" alt="FitZone Logo" className="h-14 mx-auto" />
               </a>
-              <img src="src/assets/images/header/logo-text.png" alt="FitZone Logo Text" className="h-5" />
+              <img src="/images/header/logo-text.png" alt="FitZone Logo Text" className="h-5" />
             </div>
             <div className="text-xs tracking-[0.2em] font-thin py-5 w-72 text-center md:text-left leading-loose mx-auto">
               <p>FitZone Fitness Center offers expert training, modern equipment, and diverse classes to support your fitness journey. Join our community and achieve your health goals in an inspiring environment.</p>

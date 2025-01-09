@@ -2,7 +2,9 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons"
 
-const HeadingSection = () => {
+const HeadingSection = ({search}) => {
+    const [searchQuery, setSearchQuery] = React.useState('');
+
     return (
         <section className="bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('/images/blog-bg.jpg')" }}
@@ -13,14 +15,18 @@ const HeadingSection = () => {
                 <div className="flex justify-center items-end gap-3">
                     <div>
                         <input
-                            type="tel"
+                            type="text"
                             placeholder="Search..."
+                            value={searchQuery}
+                            onChange={(e) => setSearchQuery(e.target.value)}
                             className="w-full px-1 bg-transparent border-b-2 border-bronze  text-white outline-none pb-2 mt-20 font-sairaCondensed"
                             style={{ width: '400px' }}
                         />
                     </div>
                     <div>
+                        <button onClick={() => search(searchQuery)}>
                         <FontAwesomeIcon icon={faMagnifyingGlass} style={{ color: "#b08d57", fontSize: "1.5rem" }} />
+                        </button>
                     </div>
                 </div>
             </div>
