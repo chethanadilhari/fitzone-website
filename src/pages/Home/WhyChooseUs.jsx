@@ -18,7 +18,7 @@ function WhyChooseUs() {
                         <p>At our center, you’ll discover the perfect blend of expert coaching, cutting-edge equipment, and customized fitness programs tailored to your unique needs. Whether your goal is to build strength, boost endurance, or transform your overall well-being, we provide the guidance, tools, and motivation to help you succeed.</p>
                             <br/>
                             <p>It’s more than just fitness; it’s a lifestyle upgrade that unlocks a healthier, happier, and stronger version of yourself.</p>
-                    <BronzeBtn to="#aboutUs" text="Read more" className='mt-10'/>
+                    <BronzeBtn to="/about" text="Read more" className='mt-10'/>
                     </div>
                 </div>
             </div>

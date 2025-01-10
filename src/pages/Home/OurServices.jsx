@@ -53,9 +53,11 @@ const OurServices = () => {
                                             {selectedService.description}
                                         </div>
                                     </a>
-                                    <button className="text-bronze font-koulen text-sm px-5 py-1 border-2 mt-2 mb-3 tracking-[0.3em] hover:text-white hover:bg-bronze border-bronze bg-transparent">
-                                        Read More
-                                    </button>
+                                    <a href="/classes">
+                                        <button className="text-bronze font-koulen text-sm px-5 py-1 border-2 mt-2 mb-3 tracking-[0.3em] hover:text-white hover:bg-bronze border-bronze bg-transparent">
+                                            Read More
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>

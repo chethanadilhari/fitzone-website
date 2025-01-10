@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <header
-    className={`z-50 fixed top-0 w-full py-4 transition-all duration-300 ease-in-out text-white bg-black md:bg-transparent${
+    className={`z-50 fixed top-0 w-full py-4 transition-all  duration-300 ease-in-out text-white bg-black md:bg-transparent${
       isScrolled ? 'bg-black' : ''
     }`}
   >
@@ -33,8 +33,10 @@ const Header = () => {
         <div className="flex space-x-2 items-center">
           <a href="/">
             <img src="/images/header/logo.png" alt="FitZone Logo" className="h-8" />
-          </a>
+          </a >
+          <a href="/">
           <img src="/images/header/logo-text.png" alt="FitZone Logo Text" className="h-5" />
+          </a >
         </div>
 
         {/* Navigation Links */}

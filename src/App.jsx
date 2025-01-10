@@ -10,10 +10,12 @@ import Classes from './pages/Classes';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
 import SinglePost from './pages/Blog/SinglePost';
+import ScrollToTop from './components/common/ScrollToTop';
 
 const App = () => {
   return (
     <Router>
+      <ScrollToTop />
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />

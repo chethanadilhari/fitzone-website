@@ -16,7 +16,7 @@ function Home() {
       <div className="hero-bg">
         <HeroSection/>
         <WhyChooseUs/>
-         {/* <CountSection/> */}
+         <CountSection/>
       </div>
         <OurServices/>
         <Mission/>

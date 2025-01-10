@@ -24,8 +24,8 @@ const CustomNavLink = ({ to, text, className = "" }) => {
 
     return (
       <nav>
-        <div className="flex justify-between items-center p-4">
-          <div className="md:hidden" onClick={toggleMenu}>
+        <div className="flex justify-between items-center md:hidden p-4">
+          <div onClick={toggleMenu}>
             <FontAwesomeIcon icon={isOpen ? faTimes : faBars} />
           </div>
         </div>
@@ -40,19 +40,6 @@ const CustomNavLink = ({ to, text, className = "" }) => {
       </nav>
     );
   };
-// const Navigation = () => {
-//   return (
-//     <nav >
-//       <ul className=" flex font-koulen uppercase space-x-7 font-thin items-center justify-center tracking-[0.3em] ">
-//         <CustomNavLink to="/" text="Home" />
-//         <CustomNavLink to="/classes" text="Classes" />
-//         <CustomNavLink to="/packages" text="Packages" />
-//         <CustomNavLink to="/blog" text="Blog" />
-//         <CustomNavLink to="/contact" text="Contact" />
-//         <CustomNavLink to="/register" text="Register" className="border border-bronze text-bronze shadow-none hover:shadow-[0_0_0_2px_#b08d57]" />
-//       </ul>
-//     </nav>
-//   );
-// };
+
 
 export default Navigation;
