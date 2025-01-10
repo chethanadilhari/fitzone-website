@@ -24,11 +24,11 @@ const Header = () => {
 
   return (
     <header
-    className={`z-50 fixed top-0 w-full py-4 transition-all duration-300 ease-in-out ${
-      isScrolled ? 'bg-black text-white' : 'bg-transparent text-white'
+    className={`z-50 fixed top-0 w-full py-4 transition-all duration-300 ease-in-out text-white bg-black md:bg-transparent${
+      isScrolled ? 'bg-black' : ''
     }`}
   >
-      <div className="max-w-screen-xl mx-auto flex justify-between items-center px-20 py-1">
+      <div className="max-w-screen-xl mx-auto flex justify-between items-center px-10 md:px-20 py-1">
         {/* Logo section */}
         <div className="flex space-x-2 items-center">
           <a href="/">
