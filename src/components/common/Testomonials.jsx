@@ -14,7 +14,7 @@ const Testomonials = ({ item }) => {
             <div className="text-white text-2xl py-2">
                 {item.name}
             </div>
-            <div className="text-white text-base">
+            <div className="text-white py-4 text-base">
                 {item.title}
             </div>
         </div >

@@ -49,9 +49,9 @@ const OurTeam = () => {
                             <TeamContainer key={index} data={trainer} handleClick={setSelectedTrainer} />
                         ))}
                     </div>
-                    <div>
+                    <div className="">
                         <div className="items-center pl-0 lg:pl-8  ">
-                            <div className="grid border-2  border-neutral-500">
+                            <div className="grid border-2 border-neutral-500 min-h-[400px] lg:min-h-[690px]">
                                 <img src={selectedTrainer.image} alt="Image description" className="max-w-full w-auto object-cover h-84 " />
                                 <div className="p-5">
                                     <a className="font-sairaCondensed text-2xl font-bold tracking-[0.3em] text-white">

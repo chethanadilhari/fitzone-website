@@ -37,8 +37,8 @@ const Footer = () => {
               <h3>Get in Touch</h3>
             </div>
             <div className="font-thin  text-center text-xs md:text-left leading-loose">
-              <p>333 Middle Winchendon Rd, Rindge,<br /> NH 03461</p>
-              <p>125-711-811 | 125-668-886</p>
+              <p>M. A. Wimalaratne. 63, Sudhrma Mawatha,. <br />  Millewa, Kurunegala</p>
+              <p>077-772-6792 | 071-122-2940</p>
               <p>Support.fitness@gmail.com</p>
               <SocialMediaLinks />
             </div>

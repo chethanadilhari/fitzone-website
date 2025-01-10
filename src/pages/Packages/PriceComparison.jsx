@@ -22,7 +22,7 @@ const data = [
 
 return (
     <section>
-        <div className="w-full max-w-screen-2xl mx-auto h-auto tracking-wide bg-black px-10 md:px-40 py-10">
+        <div className="w-full max-w-screen-3xl mx-auto h-auto tracking-wide bg-black px-10 md:px-40 py-10">
         <div className="overflow-x-auto">
             <table className="table-auto w-full border-2  border-bronze text-lg font-sairaCondensed text-white/85">
                 <thead>

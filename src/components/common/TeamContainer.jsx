@@ -11,7 +11,7 @@ import React from 'react'
             <img 
               src={data.image} 
               alt="Image description" 
-              className=" relative text-center w-full h-64 object-cover transition-transform duration-300 transform group-hover:scale-105" 
+              className=" relative text-center w-full h-72 object-cover transition-transform duration-300 transform group-hover:scale-105" 
             />
         
             {/* Gradient Overlay */}

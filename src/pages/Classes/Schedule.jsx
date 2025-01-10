@@ -56,7 +56,7 @@ const Schedule = () => {
 
     return (
         <section>
-            <div className="w-full max-w-screen-2xl mx-auto font-sairaCondensed tracking-wide bg-black px-10 md:px-20 py-10">
+            <div className="w-full max-w-screen-3xl mx-auto font-sairaCondensed tracking-wide bg-black px-10 md:px-20 py-10">
                 <h2 className="text-4xl text-bronze font-bold pb-10 text-center">
                     Class Time Table
                 </h2>
