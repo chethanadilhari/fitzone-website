@@ -35,7 +35,7 @@ const CustomNavLink = ({ to, text, className = "" }) => {
           <CustomNavLink to="/packages" text="Packages" />
           <CustomNavLink to="/blog" text="Blog" />
           <CustomNavLink to="/contact" text="Contact" />
-          <CustomNavLink to="/register" text="Register" className="border border-bronze text-bronze shadow-none hover:shadow-[0_0_0_2px_#b08d57]" />
+          <CustomNavLink to="http://localhost:4000/register" text="Register" className="border border-bronze text-bronze shadow-none hover:shadow-[0_0_0_2px_#b08d57]" />
         </ul>
       </nav>
     );

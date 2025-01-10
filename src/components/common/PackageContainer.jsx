@@ -39,7 +39,7 @@ const PackageContainer = ({ data, icon, className = "" }) => {
 
                 {/* Action Button */}
                 <div className="">
-                    <a href="/register">
+                    <a href="http://localhost:4000/register">
                         <button
                             className="group-hover:border-bronze mb-5 group-hover:bg-bronze shadow-none hover:shadow-[0_0_0_2px_white] transition-shadow font-koulen text-lg tracking-[0.2em] uppercase border-2 border-customGrey bg-transparent text-white px-5 py-2  "
                         >
